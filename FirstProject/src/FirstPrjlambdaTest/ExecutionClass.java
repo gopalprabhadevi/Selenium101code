@@ -15,6 +15,7 @@ public class ExecutionClass {
   	
 		driver.navigate().to("https://google.co.nz");
 		driver.close();
+		driver.quit();
 	}
 	
 
